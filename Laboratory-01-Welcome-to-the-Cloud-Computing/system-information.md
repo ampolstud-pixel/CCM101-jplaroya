@@ -10,7 +10,7 @@ Ubuntu 24.04 LTS
 Intel Xeon E312xx
 
 ## Total Memory
-1.9 Gi
+1.9 GiB
 
 ## Available Disk Space
-13GB
+13G
