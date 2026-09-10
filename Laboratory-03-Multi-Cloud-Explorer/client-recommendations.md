@@ -14,10 +14,10 @@ This approach helps the startup reduce the need for expensive physical servers d
 
 ### Recommended Services
 
-Amazon EC2. Provides computing resources for running the application.
-Amazon S3. Provides storage for application files, images, backups, and other data.
-Amazon RDS. Provides a managed relational database for storing structured application data.
-AWS Lambda. Runs application functions without requiring the startup to manage traditional servers.
+1. Amazon EC2. Provides computing resources for running the application.
+2. Amazon S3. Provides storage for application files, images, backups, and other data2
+3. Amazon RDS. Provides a managed relational database for storing structured application data.
+4. AWS Lambda. Runs application functions without requiring the startup to manage traditional servers.
 
 ---
 
@@ -56,10 +56,10 @@ GCP also provides tools for developing machine learning models and processing la
 
 ### Recommended Services
 
-- Compute Engine. Provides virtual machines for running research workloads.
-- Vertex AI. Provides tools for developing, training, and deploying machine learning models.
-- Cloud Storage. Stores datasets, research files, models, and other project data.
-- Google Kubernetes Engine. Provides a managed Kubernetes environment for containerized AI applications.
+1. Compute Engine. Provides virtual machines for running research workloads.
+2. Vertex AI. Provides tools for developing, training, and deploying machine learning models.
+3. Cloud Storage. Stores datasets, research files, models, and other project data.
+4. Google Kubernetes Engine. Provides a managed Kubernetes environment for containerized AI applications.
 
 ---
 
@@ -77,10 +77,10 @@ AWS also supports scaling based on customer traffic. The company can adjust clou
 
 ### Recommended Services
 
-- Amazon EC2. Provides virtual servers for hosting websites and e-commerce applications.
-- Amazon S3. Stores product images, files, backups, and other application data.
-- Amazon RDS. Provides managed relational databases for customer, product, and transaction data.
-- Elastic Load Balancing. Distributes incoming traffic across multiple application resources to support application availability.
+1. Amazon EC2. Provides virtual servers for hosting websites and e-commerce applications.
+2. Amazon S3. Stores product images, files, backups, and other application data.
+3. Amazon RDS. Provides managed relational databases for customer, product, and transaction data.
+4. Elastic Load Balancing. Distributes incoming traffic across multiple application resources to support application availability.
 
 ---
 
