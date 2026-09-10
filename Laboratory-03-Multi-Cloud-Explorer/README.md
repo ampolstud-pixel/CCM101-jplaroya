@@ -1,20 +1,23 @@
-# Laboratory 03 - Multi-Cloud Explorer
+## Cloud Migration
 
-## Overview
+If this Linux server were migrated to the cloud, it could be hosted using virtual machine services from AWS, Microsoft Azure, or Google Cloud.
 
-This laboratory activity explores three major cloud computing platforms: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+***AWS***
 
-The activity focuses on researching cloud services, comparing the three providers, and selecting suitable cloud platforms based on different business requirements.
+### Amazon EC2. Provides virtual computing resources.
+### Amazon EBS. Provides block storage for EC2 instances.
+### Amazon VPC. Provides networking for cloud resources.
 
-## Objectives
-- Explore Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
-- Research their core cloud services.
-- Compare the major cloud providers.
-- Analyze different client requirements.
-- Recommend suitable cloud solutions.
-- Document the research using Markdown.
+***Microsoft Azure***
 
-## Cloud Platforms
-- Amazon Web Services (AWS)
-- Microsoft Azure
-- Google Cloud Platform (GCP)
+### Azure Virtual Machines. Provides virtual servers.
+### Azure Managed Disks. Provides storage for virtual machines.
+### Azure Virtual Network. Provides networking for Azure resources.
+
+***Google Cloud Platform***
+
+### Compute Engine. Provides virtual machines.
+### Persistent Disk. Provides storage for Compute Engine instances.
+### Virtual Private Cloud. Provides networking for cloud resources.
+
+These services provide virtual machines that can run Linux operating systems and can be configured with the required CPU, memory, storage, and networking resources.
