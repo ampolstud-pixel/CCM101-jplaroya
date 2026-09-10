@@ -3,7 +3,7 @@
 If this Linux server were migrated to the cloud, it could be hosted using virtual machine services from AWS, Microsoft Azure, or Google Cloud.
 
 ***AWS***
-## Amazon EC2. Provides virtual computing resources.
+#### Amazon EC2. Provides virtual computing resources.
 ### Amazon EBS. Provides block storage for EC2 instances.
 ### Amazon VPC. Provides networking for cloud resources.
 
