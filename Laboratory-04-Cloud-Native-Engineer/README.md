@@ -21,7 +21,33 @@ Record and present the laboratory activities using Markdown.
 ## Docker Commands Executed
 
 ### Checkpoint 3
-
-The first command used was docker --version. This command checks whether Docker is installed and displays the installed Docker version in the KillerCoda environment.
-
 docker --version
+docker info
+docker ps
+
+---
+
+### Checkpoint 4
+docker pull nginx
+docker run -d --name nginx-server -p 8080:80 nginx
+docker ps
+curl http://localhost:8080
+
+---
+
+### Checkpoint 5
+docker ps
+docker stop nginx-server
+docker ps -a
+docker rm nginx-server
+docker ps -a
+
+---
+
+### Skills Learned
+
+During this laboratory activity, I gained practical experience in using Docker and managing containers. I learned how to download Docker images, create and run containers, configure port mapping, view container status, stop containers, and remove them. I also developed a better understanding of the differences between Containers and Virtual Machines, particularly in their architecture, startup time, resource consumption, and level of isolation. In addition, the activity helped me improve my skills in using the Linux terminal and documenting technical procedures with Markdown.
+
+### Challenges Encountered
+
+One challenge I experienced was understanding the concept of Docker port mapping. I had to understand how port 8080 of the host system connects to port 80 of the Nginx container. I also found it challenging to remember the correct commands for stopping and deleting containers. I addressed these difficulties by following the commands in the proper order and using docker ps and docker ps -a to check the current status of my containers. This helped me verify each step and avoid mistakes while completing the activity.
