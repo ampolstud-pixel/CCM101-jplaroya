@@ -15,3 +15,14 @@ The docker ps command shows currently running containers.
 ### docker ps -a
 
 The docker ps -a command displays both running and stopped containers.
+
+---
+
+# Docker Deployment
+
+## Nginx Container Deployment
+
+### 1. Pull the Nginx Image
+
+```bash
+docker pull nginx
