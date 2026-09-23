@@ -1,5 +1,5 @@
-# Laboratory 01 - Welcome - to the Cloud
+# Laboratory Portfolio
 
 ## Cloud Computing Laboratory Portfolio
 
-This folder conatains my activities, system information, reflection, and screenshots for Laboratory 01
+This folder conatains my activities, system information, reflection, and screenshots for Laboratories
