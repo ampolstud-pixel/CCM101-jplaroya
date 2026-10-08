@@ -14,3 +14,12 @@ The following log entry shows the failed request:
 The 404 status means the requested page was not found. Application logs are useful for troubleshooting because they show which requests reached the application and how the server responded.
 
 Logs also help identify incorrect URLs, missing files, and other application issues. Regular log monitoring helps administrators detect problems and check the behavior of containerized applications.
+
+## Container Resource Metrics
+
+The client-website container was monitored using docker stats.
+
+- Memory Usage: 2.734MiB
+- CPU Usage: 0.00%
+
+The container used a relatively small amount of system resources during the monitoring period. The CPU and memory usage stayed low, showing that the Nginx container handled the workload without using many system resources.
