@@ -1,1 +1,11 @@
+# Mission Reflection: The Cloud Automation Engineer
 
+This laboratory helped me understand the importance of automation in cloud computing. Managing hundreds of cloud servers manually takes time and increases the risk of human error. Automation helps administrators perform repetitive tasks faster and more consistently. For example, a scheduled backup script saves important application files without requiring someone to run the command manually every day.
+
+Automation also has risks. A small mistake in a script might cause serious problems, especially when the script runs on multiple servers. An incorrect directory path or destructive command might delete important files or produce incomplete backups. Administrators should test scripts in a safe environment, review commands, check file permissions, and monitor scheduled tasks. They should also keep backup copies in separate locations and test file restoration regularly.
+
+Bash scripting and Docker Compose serve different purposes. A Bash script contains shell commands that execute in sequence to automate tasks such as creating directories and compressing files. Docker Compose uses YAML to define application services, configurations, networks, and other resources. Bash focuses on automating commands, while Docker Compose manages containerized applications.
+
+Throughout this semester, my understanding of cloud computing has improved. I learned about cloud infrastructure, cloud providers, container deployment, object storage, multi-tier applications, server operations, security, and automation. These activities taught me that cloud computing involves more than accessing services over the internet. It also requires proper configuration, monitoring, security, and maintenance.
+
+The role I enjoyed most was the Cloud Automation Engineer because automation reduces repetitive work and simplifies scheduled tasks. Creating a backup script and configuring a Cron job helped me understand how Linux commands automate important administrative tasks. I still need more practice, but I am more confident using Linux commands and documenting technical procedures. I also learned that automated processes require testing and monitoring to ensure reliable execution and protect important data.
